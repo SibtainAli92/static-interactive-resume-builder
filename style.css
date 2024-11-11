@@ -80,3 +80,56 @@ button {
 button:hover {
     background-color: #b6ebec;
 }
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    body {
+        padding: 20px;
+    }
+
+    .resume-container {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .left-section {
+        width: 100%;
+        border-right: none;
+        border-bottom: 5px solid #ade3ed;
+    }
+
+    .right-section {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    button {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+
+    .profile-picture {
+        width: 120px;
+        height: 120px;
+    }
+
+    button {
+        font-size: 14px;
+    }
+}
